@@ -1,0 +1,54 @@
+/* set page margin */
+body {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* Navigation bar */
+.topnavigationbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+/* logo styling */
+#logo {
+  margin-top: 45px;
+  margin-bottom: 48px;
+  font-size: 40px;
+}
+
+#routes {
+  margin-bottom: auto;
+  margin-top: auto;
+  display: flex;
+}
+#route {
+  margin-left: 50px;
+  font-size: 40px;
+}
+/* styling the centre section */
+#centreSection {
+  display: flex;
+  margin-bottom: 48px;
+  justify-content: space-between;
+}
+#imageSection {
+  width: 49%;
+}
+#DescriptionButton {
+  width: 49%;
+}
+#title {
+  width: 100%;
+  font-size: 25px;
+}
+#description {
+  font-size: 21px;
+}
+#button {
+  font-size: 20px;
+  background-size: auto;
+  border-radius: 10px;
+  border-left-width: 50px;
+}
