@@ -1,7 +1,7 @@
 /* set page margin */
 body {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 /* Navigation bar */
@@ -30,25 +30,40 @@ body {
 /* styling the centre section */
 #centreSection {
   display: flex;
-  margin-bottom: 48px;
-  justify-content: space-between;
+  margin-bottom: 100px;
 }
+/* the image */
 #imageSection {
-  width: 49%;
+  width: 50%;
 }
 #DescriptionButton {
-  width: 49%;
+  width: 50%;
 }
+/* title styling */
 #title {
   width: 100%;
   font-size: 25px;
 }
+/* description styling */
 #description {
   font-size: 21px;
 }
-#button {
+/* button styling */
+#buyTicketButton {
+  background-color: black;
+  color: white;
+  font-weight: bold;
   font-size: 20px;
-  background-size: auto;
-  border-radius: 10px;
-  border-left-width: 50px;
+  width: fit-content;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+/* using pseudo selector */
+#buyTicketButton:hover {
+  background-color: #e1f00d;
+    color: black;
+    cursor: pointer;
 }
